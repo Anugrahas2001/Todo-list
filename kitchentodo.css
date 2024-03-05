@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main_container{
+    flex-direction: column;
+}
+
+.header{
+    margin-top: 30px;
+    color: white;
+}
+
+.items_container{
+    margin-top: 30px;
+    /*
+    width: 400px;
+    height: 600px;
+    */
+    color: antiquewhite;
+}
+.kitchen_header{
+    display: flex;
+
+}
+
+#kitchen_input{
+    padding-left: 15px;
+    outline: none;
+    border: none;
+    font-size: medium;
+    font-weight: 400;
+    height: 40px;
+    width: 250px;
+    border: none;
+}
+#add_btn{
+    background-color: #111;
+    color: white;
+    height: 42px;
+    width: 100px;
+    border-radius: 3px;
+    outline: none;
+    border-style: none;
+    border: none;
+    border-color: white;
+}
+.kitchen_items_list li{
+    display: flex;
+    padding-right: 10px;
+   justify-content: space-between;
+    padding-top: 10px;
+    font-weight: bolder;
+    color: black;
+    padding-left: 15px;
+    /*text-align: center;*/
+    font-size: medium;
+    list-style: none;
+    margin-top: 20px;
+    width: 350px;
+    height: 40px;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    border-radius: 3px;
+}
+.fa-trash{
+    margin-left: auto;
+    margin-right: 15px;
+}
